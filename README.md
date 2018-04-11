@@ -42,7 +42,7 @@ Improvements needed:
 - Text too small to read 
 - Content wider than screen
 
-###PERFORMANCE
+### PERFORMANCE
 
 This website took 13-15 seconds for initial page load which is *below average* performance as evaluated by [WebPageTest](https://www.webpagetest.org) and [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights).
 
@@ -61,24 +61,24 @@ Improvements needed:
 - Optimize images
 
 
-###FUNCTIONALITY
+### FUNCTIONALITY
 
 
-###EASE OF USE
+### EASE OF USE
 
 
-##REQUIREMENTS
+## REQUIREMENTS
 
-###AUDIENCE & CORE TASKS
-
-
-###DEVICE & PLATFORM 
+### AUDIENCE & CORE TASKS
 
 
-###RECOMMENDATIONS
+### DEVICE & PLATFORM 
 
 
-##PROPOSED DELIVERABLES
+### RECOMMENDATIONS
+
+
+## PROPOSED DELIVERABLES
 
 **RECOMMENDATION** | **DEFINITION OF DONE**
 --- | ---
