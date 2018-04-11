@@ -32,7 +32,7 @@ WCAG 2.0 Guideline  |  Meets Minimum?  | No. Issues
 
 ### MOBILE RESPONSIVENESS
 
-This website is _**not mobile friendly**_ as evaluated by (Google Mobile-Friendly Test)[https://search.google.com/test/mobile-friendly]
+This website is _**not mobile friendly**_ as evaluated by [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
 
 Full results: [https://search.google.com/test/mobile-friendly?id=EeZOjLrySIzta-Rm3QLaVA](https://search.google.com/test/mobile-friendly?id=EeZOjLrySIzta-Rm3QLaVA)
 
