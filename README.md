@@ -32,7 +32,7 @@ WCAG 2.0 Guideline  |  Meets Minimum?  | No. Issues
 
 ### MOBILE RESPONSIVENESS
 
-This website is *not mobile friendly* as evaluated by (Google Mobile-Friendly Test)[https://search.google.com/test/mobile-friendly]
+This website is _**not mobile friendly**_ as evaluated by (Google Mobile-Friendly Test)[https://search.google.com/test/mobile-friendly]
 
 Full results: [https://search.google.com/test/mobile-friendly?id=EeZOjLrySIzta-Rm3QLaVA](https://search.google.com/test/mobile-friendly?id=EeZOjLrySIzta-Rm3QLaVA)
 
@@ -44,7 +44,7 @@ Improvements needed:
 
 ### PERFORMANCE
 
-This website took 13-15 seconds for initial page load which is *below average* performance as evaluated by [WebPageTest](https://www.webpagetest.org) and [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights).
+This website took 13-15 seconds for initial page load which is _**below average**_ performance as evaluated by [WebPageTest](https://www.webpagetest.org) and [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights).
 
 WebPageTest results: [https://www.webpagetest.org/result/180411_WR_522953adc22016e1cc33e4eedba0550e/](https://www.webpagetest.org/result/180411_WR_522953adc22016e1cc33e4eedba0550e/)
 
