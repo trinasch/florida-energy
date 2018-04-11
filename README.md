@@ -12,7 +12,7 @@ Assess the [Florida Energy Systems Consortion (FESC) website](http://floridaener
 The eight pages in the top level navigation were audited to understand how well the website meets minimum W3C Accessibility Guidelines (Level A). This evaluation was performed in Chrome with [SiteImprov](https://siteimprove.com/).
 
 WCAG 2.0 Guideline  |  Meets Minimum?  | No. Issues
---- | ---			
+--- | --- | ---		
 *1 Perceivable*  |   |  
 1.1 Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.  |  No - Images missing alt tags on most pages
 1.2 Provide alternatives for time-based media.  |  ??  |  ??  
