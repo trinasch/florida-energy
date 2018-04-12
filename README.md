@@ -90,7 +90,7 @@ This site serves the following audiences:
 - Energy experts and researchers
 - University and government officials
 
-Core tasks for each respective audience: |  
+AUDIENCE  | CORE TASKS
 --- | ---
 General consumer  |  As a consumer, I want to attend events, watch videos, or read information so I can learn about different energy systems.
 Energy experts and researchers  | As an expert or researcher, I want to learn about new and past research projects so I can contribute my knowledge and help grow the body of knowledge within my specialty.
@@ -113,7 +113,7 @@ At a high level, the following recommendations are provided for a responsive red
 
 ## PROPOSED DELIVERABLES
 
-**Deliverable** | **DEFINITION OF DONE**
+**DELIVERABLE** | **DEFINITION OF DONE**
 --- | ---
 Full site content audit  |  Spreadsheet of all pages on the website that identifies: URL, Job of the page, Primary audience, Content quality, SEO targets, recommendation for refining content
 Information architecture rework | Explore different IA treatments for organizing the site and then test against core tasks success to determine how to move forward
