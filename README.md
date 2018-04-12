@@ -14,21 +14,21 @@ The eight pages in the top level navigation were audited to understand how well 
 WCAG 2.0 Guideline  |  Meets Minimum?  | No. Issues
 --- | --- | ---		
 **1 Perceivable**  |   |  
-1.1 Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.  |  No - Images missing alt tags on most pages
-1.2 Provide alternatives for time-based media.  |  ??  |  ??  
-1.3 Create content that can be presented in different ways (for example simpler layout) without losing information or structure.  |  ??  |  ??
-1.4 Make it easier for users to see and hear content including separating foreground from background. |  ??  |  ??
+1.1 Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.  |  No - Images missing alt tags on most pages  | 22
+1.2 Provide alternatives for time-based media.   |    |  
+1.3 Create content that can be presented in different ways (for example simpler layout) without losing information or structure. |  No - Presentation attributes should be in CSS, not HTML; Heading is missing text; Center tag should not be used; Input field is missing description  |  135
+1.4 Make it easier for users to see and hear content including separating foreground from background. |  No - Link identified only by color  |  1
 **2 Operable**  |   |  
-2.1 Make all functionality available from a keyboard.  |  ??  |  ??
-2.2 Provide users enough time to read and use content.  |  ??  |  ??
-2.3 Do not design content in a way that is known to cause seizures.  |  ??  |  ??
-2.4 Provide ways to help users navigate, find content, and determine where they are.  |  ??  |  ??
+2.1 Make all functionality available from a keyboard.  |    |  
+2.2 Provide users enough time to read and use content.  |    |  
+2.3 Do not design content in a way that is known to cause seizures.  |    |  
+2.4 Provide ways to help users navigate, find content, and determine where they are.  |  No - Links are indistinguishable; Image link is missing alt text  |  231
 **3 Understandable**  |   |  
-3.1 Make text content readable and understandable.  |  ??  |  ??
-3.2 Make Web pages appear and operate in predictable ways.  |  ??  |  ??
-3.3 Help users avoid and correct mistakes.  |  ??  |  ??
+3.1 Make text content readable and understandable.  |  No - Set the language of the page  |  8
+3.2 Make Web pages appear and operate in predictable ways.  |    |  
+3.3 Help users avoid and correct mistakes.  |  No - Input field is missing a description  |  2
 **4 Robust**  |   |  
-4.1 Maximize compatibility with current and future user agents, including assistive technologies.  |  ??  |  ??
+4.1 Maximize compatibility with current and future user agents, including assistive technologies.  |  No - Input field is missing ARIA or title attribute  |  3
 
 ### MOBILE RESPONSIVENESS
 
