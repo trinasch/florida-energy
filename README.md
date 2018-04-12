@@ -32,7 +32,7 @@ WCAG 2.0 Guideline  |  Meets Minimum?  | No. Issues
 
 ### MOBILE RESPONSIVENESS
 
-This website is _**not mobile friendly**_ as evaluated by [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
+This website is _**not mobile friendly**_ as evaluated by [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly).
 
 Full results: [https://search.google.com/test/mobile-friendly?id=EeZOjLrySIzta-Rm3QLaVA](https://search.google.com/test/mobile-friendly?id=EeZOjLrySIzta-Rm3QLaVA)
 
@@ -46,9 +46,9 @@ Improvements needed:
 
 This website took 13-15 seconds for initial page load which is _**below average**_ performance as evaluated by [WebPageTest](https://www.webpagetest.org) and [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights).
 
-WebPageTest results: [https://www.webpagetest.org/result/180411_WR_522953adc22016e1cc33e4eedba0550e/](https://www.webpagetest.org/result/180411_WR_522953adc22016e1cc33e4eedba0550e/)
+- WebPageTest results: [https://www.webpagetest.org/result/180411_WR_522953adc22016e1cc33e4eedba0550e/](https://www.webpagetest.org/result/180411_WR_522953adc22016e1cc33e4eedba0550e/)
 
-PageSpeed Insights results: [https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Ffloridaenergy.ufl.edu%2F&tab=mobile](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Ffloridaenergy.ufl.edu%2F&tab=mobile)
+- PageSpeed Insights results: [https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Ffloridaenergy.ufl.edu%2F&tab=mobile](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Ffloridaenergy.ufl.edu%2F&tab=mobile)
 
 Metrics to aim for: 
 - According to Google, 53% of people will leave a mobile page if it takes longer than 3 seconds to load. 
@@ -85,10 +85,12 @@ Meeting user expectations - It is not easy to understand whether clicking on a l
 
 ### AUDIENCE & CORE TASKS
 
-This site serves the following audiences:
+This site is intended to service the following audiences:
 - General consumer
 - Energy experts and researchers
 - University and government officials
+
+This site is intended to support core tasks for the following audiences:
 
 AUDIENCE  | CORE TASKS
 --- | ---
