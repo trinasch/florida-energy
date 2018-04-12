@@ -64,10 +64,10 @@ Improvements needed:
 ### FUNCTIONALITY
 
 Manual QA yielded the following non-functional issues:
-- Homepage: Download brochure button is not functional
-- Homepage: Linkedin icon opens image, rather than navigating to URL
-- Energy Industry page: Clicking image grid navigates to full screen with thumbnail, rather than larger image
-- Advisory Board page: Clicking image navigates to full screen with thumbnail, rather than larger image
+- **Homepage:** Download brochure button is not functional
+- **Homepage:** Linkedin icon opens image, rather than navigating to URL
+- **Energy Industry page:** Clicking image grid navigates to full screen with thumbnail, rather than larger image
+- **Advisory Board page:** Clicking image navigates to full screen with thumbnail, rather than larger image
 
 HTML validator yielded 35 errors and 25 warnings ([full report](https://validator.w3.org/check?uri=http%3A%2F%2Ffloridaenergy.ufl.edu%2F&charset=%28detect+automatically%29&doctype=Inline&group=0)).
 
@@ -75,11 +75,11 @@ CSS validator yielding 0 errors and 35 warnings ([full report](https://jigsaw.w3
 
 ### EASE OF USE
 
-Findability - It is not easy to distinguish which content is for general consumer education vs industry expert research vs official standards.
+**Findability** - It is not easy to distinguish which content is for general consumer education vs industry expert research vs official standards.
 
-Discoverability - It is not easy to see research, events, outreach, and education for any one energy type because not all pages are segmented by energy type.
+**Discoverability** - It is not easy to see research, events, outreach, and education for any one energy type because not all pages are segmented by energy type.
 
-Meeting user expectations - It is not easy to understand whether clicking on a link will navigate to a different page on the website, an external website, or open a document.
+**Meeting user expectations** - It is not easy to understand whether clicking on a link will navigate to a different page on the website, an external website, or open a document.
 
 ## REQUIREMENTS
 
