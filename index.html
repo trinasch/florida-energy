@@ -6,9 +6,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
@@ -49,56 +46,44 @@
   </head>
   
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="images/fesc-logo.png" alt="florida energy systems consortium"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample" aria-controls="navbarsExample" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExample">
-          <ul class="navbar-nav mt-3 mb-3 mr-auto">
-
-            <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Energy systems</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown">
-                <a class="dropdown-item" href="solar.html">Solar Energy</a>
-                <a class="dropdown-item" href="wind.html">Wind Power</a>
-                <a class="dropdown-item" href="water.html">Water &amp; Ocean</a>
-                <a class="dropdown-item" href="fuel.html">Fuel &amp; Biomass</a>
-                <a class="dropdown-item" href="storage.html">Storage &amp; Delivery</a>
-                <a class="dropdown-item" href="nuclear.html">Nuclear Energy</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-md-0">
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-          </form>
-        </div>
+    
+  <!--Responsive nav with dropdown-->
+    <nav>
+      <div class="topnav" id="mainNav">
+        <a href="index.html"><img src="images/fesc-logo.png" alt="florida energy systems consortium"></a>
+        <div class="dropdown">
+          <button class="dropbtn">Energy systems 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" aria-labelledby="dropdown">
+            <a href="solar.html">Solar Energy</a>
+            <a href="wind.html">Wind Power</a>
+            <a href="water.html">Water &amp; Ocean</a>
+            <a href="fuel.html">Fuel &amp; Biomass</a>
+            <a href="storage.html">Storage &amp; Delivery</a>
+            <a href="nuclear.html">Nuclear Energy</a>
+          </div>
+        </div> 
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
       </div>
     </nav>
     
     <div>
       <!--Hero section, including Twitter share button-->
-      <header class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-5">Find energy research, education, events, and more</h1>
-          <p class="lead">Provided by the FESC, a consortium of universities addressing Florida's energy needs</p>
+      <header>
+        <div>
+          <h1>Find energy research, education, events, and more</h1>
+          <p>Provided by the FESC, a consortium of universities addressing Florida's energy needs</p>
           <p><a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Wow"> Tweet</a></p>
         </div>
       </header>
       
       <!--Energy system card grid-->      
-      <div class="container">
-        <section class="card-columns">
+      <div>
+        <section class="card-group">
 
-          <div class="card" style="width: 22rem;">
+          <div class="energy-card">
             <img class="card-img-top" src="images/solar-270x205.png" alt="solar energy">
             <div class="card-body">
               <h5 class="card-title">Solar Energy</h5>
@@ -106,7 +91,7 @@
             </div>
           </div>
 
-          <div class="card" style="width: 22rem;">
+          <div class="energy-card">
             <img class="card-img-top" src="images/algae-270x205.png" alt="water and ocean">
             <div class="card-body">
               <h5 class="card-title">Water &amp; Ocean</h5>
@@ -114,7 +99,7 @@
             </div>
           </div>
 
-          <div class="card" style="width: 22rem;">
+          <div class="energy-card">
             <img class="card-img-top" src="images/wind-270x205.png" alt="wind energy">
             <div class="card-body">
               <h5 class="card-title">Wind Power</h5>
@@ -122,7 +107,7 @@
             </div>
           </div>
 
-          <div class="card" style="width: 22rem;">
+          <div class="energy-card">
             <img class="card-img-top" src="images/fuel-270x205.jpg" alt="fuel and biomass">
             <div class="card-body">
               <h5 class="card-title">Fuel &amp; Biomass</h5>
@@ -130,7 +115,7 @@
             </div>
           </div>
 
-          <div class="card" style="width: 22rem;">
+          <div class="energy-card">
             <img class="card-img-top" src="images/smartgrid-270x205.png" alt="energy storage and delivery">
             <div class="card-body">
               <h5 class="card-title">Energy Storage &amp; Delivery</h5>
@@ -138,7 +123,7 @@
             </div>
           </div>
 
-          <div class="card" style="width: 22rem;">
+          <div class="energy-card">
             <img class="card-img-top" src="images/nuclear-270x205.jpg" alt="nuclear energy">
             <div class="card-body">
               <h5 class="card-title">Nuclear Energy</h5>
@@ -149,97 +134,97 @@
         
         <!--Upcoming events section-->        
         <section>
-          <h2 class="mt-5">Upcoming events</h2>
+          <h2>Upcoming events</h2>
 
-          <div class="row ml-1 mt-3">
-            <div class="card-deck">
+          <div class="row">
+            <div class="card-group">
 
-              <div class="card mr-3 mb-3">
+              <div class="event-card">
                 <div class="card-body">
                   <h5 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
                   </a></h5>
                   <p class="card-text">This is the longer description for the event.</p>
-                  <p class="card-text text-muted">May 1, 2018 | 6PM</p>
+                  <p class="card-text">May 1, 2018 | 6PM</p>
                 </div>
               </div>
 
-              <div class="card mr-3 mb-3">
+              <div class="event-card">
                 <div class="card-body">
                   <h5 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
                   </a></h5>
                   <p class="card-text">This is the longer description for the event.</p>
-                  <p class="card-text text-muted">May 1, 2018 | 6PM</p>
+                  <p class="card-text">May 1, 2018 | 6PM</p>
                 </div>
               </div>
 
-              <div class="card mr-3 mb-3">
+              <div class="event-card">
                 <div class="card-body">
                   <h5 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
                   </a></h5>
                   <p class="card-text">This is the longer description for the event.</p>
-                  <p class="card-text text-muted">May 1, 2018 | 6PM</p>
+                  <p class="card-text">May 1, 2018 | 6PM</p>
                 </div>
               </div>
 
-              <div class="card mr-3 mb-3">
+              <div class="event-card">
                 <div class="card-body">
                   <h5 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
                   </a></h5>
                   <p class="card-text">This is the longer description for the event.</p>
-                  <p class="card-text text-muted">May 1, 2018 | 6PM</p>
+                  <p class="card-text">May 1, 2018 | 6PM</p>
                 </div>
               </div>
             </div>
           </div>
           
-          <button type="button" class="btn btn-outline-primary col-md-4 col-lg-4">See all events</button>
+          <button type="button">See all events</button>
         </section>
         
         <!--Latest research section-->
         <section>
-          <h2 class="mt-5">Latest energy research</h2>
+          <h2>Latest energy research</h2>
           
-          <div class="row ml-1 mt-3">
-            <div class="card mr-3 mb-3" style="width: 22rem;">
-              <div class="card-header text-uppercase">
+          <div class="row">
+            <div class="research-card">
+              <div class="card-header">
                 Florida University
               </div>
               <div class="card-body">      
                 <h5 class="card-title"><a href="#">Title of research or study</a></h5>
-                <p class="cart-subtitle">Jan 24, 2018 | John Smith</p>
+                <p class="card-subtitle">Jan 24, 2018 | John Smith</p>
               </div>
             </div>
-            <div class="card mr-3 mb-3" style="width: 22rem;">
-              <div class="card-header text-uppercase">
+            <div class="research-card">
+              <div class="card-header">
                 Florida University
               </div>
               <div class="card-body">      
                 <h5 class="card-title"><a href="#">Title of research or study</a></h5>
-                <p class="cart-subtitle">Jan 24, 2018 | John Smith</p>
+                <p class="card-subtitle">Jan 24, 2018 | John Smith</p>
               </div>
             </div>
-            <div class="card mr-3 mb-3" style="width: 22rem;">
+            <div class="research-card">
               <div class="card-header text-uppercase">
                 Florida University
               </div>
               <div class="card-body">      
                 <h5 class="card-title"><a href="#">Title of research or study</a></h5>
-                <p class="cart-subtitle">Jan 24, 2018 | John Smith</p>
+                <p class="card-subtitle">Jan 24, 2018 | John Smith</p>
               </div>
             </div>
           </div>
 
-          <button type="button" class="btn btn-outline-primary col-md-4 col-lg-4">See all research</button>
+          <button type="button">See all research</button>
         </section>
 
         <!--Footer-->
-        <footer class="page-footer font-small stylish-color-dark pt-4 mt-4">
+        <footer>
           <div class="container">
-            <div class="row text-center text-md-left mt-3 pb-3">
+            <div class="row">
 
               <!--First column-->
-              <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Research &amp; education</h6>
+              <div>
+                <h6>Research &amp; education</h6>
                 <p><a href="solar.html">Solar Energy</a></p>
                 <p><a href="wind.html">Wind Power</a></p>
                 <p><a href="water.html">Water &amp; Ocean</a></p>
@@ -249,8 +234,8 @@
               </div>
 
               <!--Second column-->
-              <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3">
-                <h6 class="text-uppercase mb-4 font-weight-bold">Connect</h6>
+              <div>
+                <h6>Connect</h6>
                 <p><a href="about.html">About FESC</a></p>
                 <p><a href="contact.html">Contact Us</a></p>
                 <p>
@@ -266,9 +251,9 @@
             </div>
             
             <!--Copyright-->
-            <div class="row py-3 d-flex align-items-center">      
-                <div class="col-md-8 col-lg-8">
-                    <p class="text-center text-md-left grey-text">© 2018 Copyright - <strong>Florida Energy (FESC)</strong></p>
+            <div class="row">      
+                <div>
+                    <p>© 2018 Copyright - <strong>Florida Energy (FESC)</strong></p>
                 </div>                 
             </div> 
           </div>      
@@ -276,12 +261,6 @@
 
       </div>
     </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
   </body>
 </html>
 
