@@ -124,5 +124,44 @@ Address accessibility issues  | Implement minimum requirements on website to mee
 Improve performance | Improve page load speed to meet mobile and industry averages (3 seconds and 8 seconds respectively)
 Fix functional issues | Fix images, links, and buttons that don't work as expected
 
+## FONT, COLOR, AND LAYOUT
+
+**Website teardowns and inspiration**
+Green struck me as the appropriate color to lead with for the identity of the site because it has a strong association with nature. I looked to prominent energy brands to confirm my suspicions (green or blue feature prominently on most) and a few non-energy sites that incorporate the color green nicely into their identity.
+
+Sites reviewed:
+- [Energy Star](https://www.energystar.gov/)
+- [Dept of Energy](https://www.energy.gov/)
+- [National Renewable Energy Laboratory](https://www.nrel.gov/)
+- [Institute for Energy Research](https://instituteforenergyresearch.org/)
+- [Puget Sound Energy](https://pse.com/Pages/default.aspx)
+- [John Deere](https://www.deere.com/en/)
+- [Houzz.com](https://www.houzz.com/)
+- [Quickbooks](https://quickbooks.intuit.com/)
+
+**Design system favorite**
+- [Quickbooks](https://designsystem.quickbooks.com/foundations/color-palette/) 
+
+**FESC Style Guide**
+
+[Style Guide](https://trinasch.github.io/florida-energy/docs/styleguide.html)
+
+As a result, I developed a simple style guide for Florida Energy Systems Consortium. It features green as primary and blue as secondary color on a white background, with shades of gray available for most other things. The fonts I selected are sans serif to achieve an authoritative and approachable style.
+
+**FESC Website Layouts**
+
+[FESC Layouts](https://github.com/trinasch/florida-energy/tree/master/docs/mocks)
+
+I've mocked up layouts for the following pages: 
+- Homepage
+- Find Research page
+- Solar Energy page
+- About page
+- Contact page
+
+I also assembled the structured content for the About page and Solar Energy page in .js files, so that I can populate the modules on each respective page.
+
+Since the top navigation and footer appear on all pages, those are also candidates for a modular approach.
+
 
 
