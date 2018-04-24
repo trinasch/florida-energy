@@ -126,7 +126,8 @@ Fix functional issues | Fix images, links, and buttons that don't work as expect
 
 ## FONT, COLOR, AND LAYOUT
 
-**Website teardowns and inspiration**
+### INSPIRATION & TEARDOWNS
+
 Green struck me as the appropriate color to lead with for the identity of the site because it has a strong association with nature. I looked to prominent energy brands to confirm my suspicions (green or blue feature prominently on most) and a few non-energy sites that incorporate the color green nicely into their identity.
 
 Sites reviewed:
@@ -139,16 +140,16 @@ Sites reviewed:
 - [Houzz.com](https://www.houzz.com/)
 - [Quickbooks](https://quickbooks.intuit.com/)
 
-**Design system favorite**
+### DESIGN SYSTEM FAVORITE
 - [Quickbooks](https://designsystem.quickbooks.com/foundations/color-palette/) 
 
-**FESC Style Guide**
+### FESC STYLE GUIDE
 
 [Style Guide](https://trinasch.github.io/florida-energy/docs/styleguide.html)
 
 As a result, I developed a simple style guide for Florida Energy Systems Consortium. It features green as primary and blue as secondary color on a white background, with shades of gray available for most other things. The fonts I selected are sans serif to achieve an authoritative and approachable style.
 
-**FESC Website Layouts**
+### FESC WEBSITE LAYOUTS
 
 [FESC Layouts](https://github.com/trinasch/florida-energy/tree/master/docs/mocks)
 
