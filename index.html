@@ -1,82 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117741278-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117741278-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', 'UA-117741278-2');
-    </script>
+    gtag('config', 'UA-117741278-2');
+  </script>
 
-    <title>Homepage | FESC</title>
+  <title>Homepage | FESC</title>
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
-    <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
-    
-    <!-- facebook tags -->
-    <meta property="og:title" content="Florida Energy Systems Consortium">
-    <meta property="og:description" content="Get the latest in energy research, education, events, and more!">
-    <meta property="og:image" content="https://trinasch.github.io/florida-energy/images/solar-270x205.png">
-    <meta property="og:image:width" content="270" />
-    <meta property="og:image:height" content="205" />
-    <meta property="og:url" content="https://trinasch.github.io/florida-energy/index.html">
-    <meta property="og:type" content="website">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- twitter tags -->
-    <meta name="twitter:title" content="Florida Energy Systems Consortium">
-    <meta name="twitter:description" content="Get the latest in energy research, education, events, and more!">
-    <meta name="twitter:image" content="https://trinasch.github.io/florida-energy/images/solar-270x205.png">
-    <meta name="twitter:card" content="summary_large_image">
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
-    <!-- twitter share button script -->
-    <script>window.twttr = (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0],
-      t = window.twttr || {};
-    if (d.getElementById(id)) return t;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "https://platform.twitter.com/widgets.js";
-    fjs.parentNode.insertBefore(js, fjs);
+  <!-- facebook tags -->
+  <meta property="og:title" content="Florida Energy Systems Consortium">
+  <meta property="og:description" content="Get the latest in energy research, education, events, and more!">
+  <meta property="og:image" content="https://trinasch.github.io/florida-energy/images/solar-270x205.png">
+  <meta property="og:image:width" content="270" />
+  <meta property="og:image:height" content="205" />
+  <meta property="og:url" content="https://trinasch.github.io/florida-energy/index.html">
+  <meta property="og:type" content="website">
 
-    t._e = [];
-    t.ready = function(f) {
-      t._e.push(f);
-    };
+  <!-- twitter tags -->
+  <meta name="twitter:title" content="Florida Energy Systems Consortium">
+  <meta name="twitter:description" content="Get the latest in energy research, education, events, and more!">
+  <meta name="twitter:image" content="https://trinasch.github.io/florida-energy/images/solar-270x205.png">
+  <meta name="twitter:card" content="summary_large_image">
 
-    return t;
-    }(document, "script", "twitter-wjs"));</script>
-    
-  </head>
-  
-  <body>
+  <!-- twitter share button script -->
+  <script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+  }(document, "script", "twitter-wjs"));</script>
+
+  <!-- common script file -->
+  <script src="js/script.js"></script>
+
+</head>
+
+<body>
     
   <!--Responsive nav with dropdown-->
-    <nav>
-      <div class="topnav" id="mainNav">
-        <a href="index.html"><img src="images/fesc-logo-130x29.png" alt="florida energy systems consortium"></a>
-        <div class="dropdown">
-          <button>Energy systems 
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div>
-            <a href="solar.html">Solar Energy</a>
-            <a href="wind.html">Wind Power</a>
-            <a href="water.html">Water &amp; Ocean</a>
-            <a href="fuel.html">Fuel &amp; Biomass</a>
-            <a href="storage.html">Storage &amp; Delivery</a>
-            <a href="nuclear.html">Nuclear Energy</a>
-          </div>
-        </div> 
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </div>
+  <nav class="topnav" id="mainNav">
+      <a href="index.html"><img src="images/fesc-logo-130x29.png" alt="florida energy systems consortium" class="logo"></a>
+      <div class="dropdown">
+        <button class="dropbtn">Energy systems 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="solar.html">Solar Energy</a>
+          <a href="wind.html">Wind Power</a>
+          <a href="water.html">Water &amp; Ocean</a>
+          <a href="fuel.html">Fuel &amp; Biomass</a>
+          <a href="storage.html">Storage &amp; Delivery</a>
+          <a href="nuclear.html">Nuclear Energy</a>
+        </div>
+      </div> 
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars fa-lg"></i></a>
     </nav>
     
     <div>
@@ -96,7 +101,7 @@
           <div class="energy-card">
             <img class="card-img-top" src="images/solar-270x205.png" alt="solar energy">
             <div class="card-body">
-              <h5 class="card-title">Solar Energy</h5>
+              <h3 class="card-title">Solar Energy</h3>
               <a href="solar.html" class="card-link">Learn more</a>
             </div>
           </div>
@@ -104,7 +109,7 @@
           <div class="energy-card">
             <img class="card-img-top" src="images/algae-270x205.png" alt="water and ocean">
             <div class="card-body">
-              <h5 class="card-title">Water &amp; Ocean</h5>
+              <h3 class="card-title">Water &amp; Ocean</h3>
               <a href="water.html" class="card-link">Learn more</a>
             </div>
           </div>
@@ -112,7 +117,7 @@
           <div class="energy-card">
             <img class="card-img-top" src="images/wind-270x205.png" alt="wind energy">
             <div class="card-body">
-              <h5 class="card-title">Wind Power</h5>
+              <h3 class="card-title">Wind Power</h3>
               <a href="wind.html" class="card-link">Learn more</a>
             </div>
           </div>
@@ -120,7 +125,7 @@
           <div class="energy-card">
             <img class="card-img-top" src="images/fuel-270x205.jpg" alt="fuel and biomass">
             <div class="card-body">
-              <h5 class="card-title">Fuel &amp; Biomass</h5>
+              <h3 class="card-title">Fuel &amp; Biomass</h3>
               <a href="fuel.html" class="card-link">Learn more</a>
             </div>
           </div>
@@ -128,7 +133,7 @@
           <div class="energy-card">
             <img class="card-img-top" src="images/smartgrid-270x205.png" alt="energy storage and delivery">
             <div class="card-body">
-              <h5 class="card-title">Energy Storage &amp; Delivery</h5>
+              <h3 class="card-title">Energy Storage &amp; Delivery</h3>
               <a href="storage.html" class="card-link">Learn more</a>
             </div>
           </div>
@@ -136,7 +141,7 @@
           <div class="energy-card">
             <img class="card-img-top" src="images/nuclear-270x205.jpg" alt="nuclear energy">
             <div class="card-body">
-              <h5 class="card-title">Nuclear Energy</h5>
+              <h3 class="card-title">Nuclear Energy</h3>
               <a href="nuclear.html" class="card-link">Learn more</a>
             </div>
           </div>
@@ -151,8 +156,8 @@
 
               <div class="event-card">
                 <div class="card-body">
-                  <h5 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
-                  </a></h5>
+                  <h4 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
+                  </a></h4>
                   <p class="card-text">This is the longer description for the event.</p>
                   <p class="card-text">May 1, 2018 | 6PM</p>
                 </div>
@@ -160,8 +165,8 @@
 
               <div class="event-card">
                 <div class="card-body">
-                  <h5 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
-                  </a></h5>
+                  <h4 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
+                  </a></h4>
                   <p class="card-text">This is the longer description for the event.</p>
                   <p class="card-text">May 1, 2018 | 6PM</p>
                 </div>
@@ -169,8 +174,8 @@
 
               <div class="event-card">
                 <div class="card-body">
-                  <h5 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
-                  </a></h5>
+                  <h4 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
+                  </a></h4>
                   <p class="card-text">This is the longer description for the event.</p>
                   <p class="card-text">May 1, 2018 | 6PM</p>
                 </div>
@@ -178,8 +183,8 @@
 
               <div class="event-card">
                 <div class="card-body">
-                  <h5 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
-                  </a></h5>
+                  <h4 class="card-title"><a href="#" aria-label="Event"><span aria-hidden="true"><i class="far fa-calendar fa-2x"></i></span> Name of event<span class="sr-only">Event icon</span>
+                  </a></h4>
                   <p class="card-text">This is the longer description for the event.</p>
                   <p class="card-text">May 1, 2018 | 6PM</p>
                 </div>
@@ -196,29 +201,29 @@
           
           <div class="row">
             <div class="research-card">
-              <div class="card-header">
+              <h5 class="card-header">
                 Florida University
-              </div>
+              </h5>
               <div class="card-body">      
-                <h5 class="card-title"><a href="#">Title of research or study</a></h5>
+                <h4 class="card-title"><a href="#">Title of research or study</a></h4>
                 <p class="card-subtitle">Jan 24, 2018 | John Smith</p>
               </div>
             </div>
             <div class="research-card">
-              <div class="card-header">
+              <h5 class="card-header">
                 Florida University
-              </div>
+              </h5>
               <div class="card-body">      
-                <h5 class="card-title"><a href="#">Title of research or study</a></h5>
+                <h4 class="card-title"><a href="#">Title of research or study</a></h4>
                 <p class="card-subtitle">Jan 24, 2018 | John Smith</p>
               </div>
             </div>
             <div class="research-card">
-              <div class="card-header text-uppercase">
+              <h5 class="card-header">
                 Florida University
-              </div>
+              </h5>
               <div class="card-body">      
-                <h5 class="card-title"><a href="#">Title of research or study</a></h5>
+                <h4 class="card-title"><a href="#">Title of research or study</a></h4>
                 <p class="card-subtitle">Jan 24, 2018 | John Smith</p>
               </div>
             </div>
