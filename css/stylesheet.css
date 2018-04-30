@@ -3,27 +3,31 @@ p, a {
   color: #6B6C72; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
-  color: #6B6C72; }
+  font-family: 'Lato', sans-serif; }
 
 h1 {
   font-size: 2rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #000000; }
 
 h2 {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  color: #6B6C72; }
 
 h3 {
   font-size: 1.25rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #6B6C72; }
 
 h4 {
   font-size: 1rem;
-  font-weight: bold; }
+  font-weight: bold;
+  color: #6B6C72; }
 
 h5 {
   font-size: .75rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #6B6C72; }
 
 h6 {
   font-size: 1rem;
@@ -58,12 +62,6 @@ button {
   text-align: center;
   padding: .75rem 1rem;
   font-size: 1rem; }
-
-/* Add an active class to highlight the current page */
-.active {
-  background-color: #E3E5E8;
-  color: #000000;
-  font-weight: bold; }
 
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
@@ -100,23 +98,56 @@ button {
   padding: .75rem 1rem;
   display: block;
   text-align: left; }
-
-/* Add a dark background on topnav links and the dropdown button on hover 
-.topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #555;
-    color: white;
-}*/
-/* Add a grey background to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #E3E5E8;
-  color: black; }
+  .dropdown-content a:hover {
+    background-color: #E3E5E8;
+    color: black; }
 
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
   display: block; }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+.container {
+  margin: 1rem 1rem; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+header {
+  background-color: #E3E5E8;
+  padding: 1rem; }
+  header h1 {
+    margin-bottom: .1rem; }
+
+/* styling on main energy type grid with H3 and transparent overlay */
+.energy-card {
+  margin: 0 1rem 1rem 0; }
+  .energy-card h3 {
+    color: #000000; }
+
+div.overlay {
+  margin-top: -5rem;
+  padding: .5rem;
+  background-color: #FFFFFF;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  /* For IE8 and earlier */ }
+
+/* styling on footer */
+footer {
+  background-color: #E3E5E8; }
+  footer a {
+    color: #6B6C72; }
+
 @media screen and (max-width: 600px) {
+  /* Hide top nav except for logo and hamburger icon */
   .topnav a:not(:first-child) {
     display: none; }
 
@@ -129,9 +160,9 @@ button {
 
   .topnav a.icon {
     float: right;
-    display: block; } }
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
+    display: block; }
+
+  /* Responsive variation for top nav */
   .topnav.responsive {
     position: relative; }
 

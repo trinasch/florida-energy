@@ -1,4 +1,4 @@
-$default-margin: 1rem auto;
+$default-margin: 1rem 1rem;
 $primary: #108000;
 $secondary: #0077C5;
 $dark: #000000;
@@ -14,31 +14,35 @@ p, a, {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
-  color: $medium;
 }
 
 h1 {
   font-size: 2rem;
   font-weight: bold;
+  color: $dark;
 }
 
 h2 {
   font-size: 1.5rem;
+  color: $medium;
 }
 
 h3 {
   font-size: 1.25rem;
   font-weight: bold;
+  color: $medium;
 }
 
 h4 {
   font-size: 1rem;
   font-weight: bold;
+  color: $medium;
 }
 
 h5 {
   font-size: .75rem;
   text-transform: uppercase;
+  color: $medium;
 }
 
 h6 {
@@ -85,13 +89,6 @@ button {
   font-size: 1rem;
 }
 
-/* Add an active class to highlight the current page */
-.active {
-  background-color: $light;
-  color: $dark;
-  font-weight: bold;
-}
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
@@ -131,18 +128,10 @@ button {
   padding: .75rem 1rem;
   display: block;
   text-align: left;
-}
-
-/* Add a dark background on topnav links and the dropdown button on hover 
-.topnav a:hover, .dropdown:hover .dropbtn {
-    background-color: #555;
-    color: white;
-}*/
-
-/* Add a grey background to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: $light;
-  color: black;
+  &:hover {
+    background-color: $light;
+    color: black;
+  }
 }
 
 /* Show the dropdown menu when the user moves the mouse over the dropdown button */
@@ -150,8 +139,51 @@ button {
   display: block;
 }
 
-/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+.container {
+  margin: $default-margin;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: $light;
+  padding: 1rem;
+  h1 {
+    margin-bottom: .1rem;
+  }
+}
+
+/* styling on main energy type grid with H3 and transparent overlay */
+.energy-card {
+  margin: 0 1rem 1rem 0;
+  h3 {
+    color: $dark;
+  }
+}
+
+div.overlay {
+  margin-top: -5rem;
+  padding: .5rem;
+  background-color: $white;
+  opacity: 0.7;
+  filter: alpha(opacity=70); /* For IE8 and earlier */
+}
+
+/* styling on footer */
+footer {
+  background-color: $light;
+  a {
+    color: $medium;
+  }
+}
+
 @media screen and (max-width: 600px) {
+  
+/* Hide top nav except for logo and hamburger icon */
   .topnav a:not(:first-child) {display: none;}
   .topnav div {display: none;}
   .topnav a.logo {
@@ -162,10 +194,8 @@ button {
     float: right;
     display: block;
   }
-}
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
+  
+/* Responsive variation for top nav */
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
