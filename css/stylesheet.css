@@ -1,9 +1,10 @@
-p, a, li {
-  font-family: 'Oxygen', sans-serif;
+/* Headings */
+p, a, li, label {
+  font-family: "Oxygen", sans-serif;
   color: #6B6C72; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif; }
+  font-family: "Lato", sans-serif; }
 
 h1 {
   font-size: 2rem;
@@ -40,8 +41,9 @@ a {
   text-decoration: none;
   color: #108000; }
 
+/* primary button style */
 button {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 1rem;
   border: 1px solid #108000;
   border-radius: 3px;
@@ -50,6 +52,11 @@ button {
   button:hover {
     background-color: #108000;
     color: white; }
+
+.clip-circle {
+  -webkit-clip-path: circle(100px at center);
+          clip-path: circle(100px at center);
+  background: #FFFFFF; }
 
 /* Add a white background color to the top navigation */
 .topnav {
@@ -76,7 +83,7 @@ button {
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: 1rem;
   border: none;
   outline: none;
@@ -122,6 +129,7 @@ button {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
 
+/* styling on hero section */
 header {
   background-color: #E3E5E8;
   padding: 1rem; }
@@ -142,7 +150,24 @@ div.overlay {
   filter: alpha(opacity=70);
   /* For IE8 and earlier */ }
 
-/* styling on footer */
+.contact-card {
+  margin: 0 1rem 1rem 0; }
+  .contact-card h4, .contact-card p, .contact-card a {
+    margin: 0.25rem 0; }
+
+.map img {
+  max-width: 100%; }
+
+div h2 {
+  margin-bottom: 1rem; }
+
+form input, form textarea {
+  width: 95%;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 0.75rem; }
+
 footer {
   background-color: #E3E5E8;
   line-height: 0.5rem; }
@@ -156,7 +181,6 @@ footer {
 div.span_12_of_12 {
   text-align: center; }
 
-/* 12 column grid */
 /*  SECTIONS  */
 .section {
   clear: both;
