@@ -189,7 +189,15 @@ div.overlay {
 
 //ABOUT PAGE
 
+#university {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+#university img {
+  padding: 1.5rem;
+}
 
 //CONTACT PAGE
 
@@ -315,8 +323,22 @@ div.span_12_of_12 {
   /*grid columns*/
   .col {  margin: 1% 0 1% 0%; }
 
-  .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+  .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
   width: 100%; 
+  }
+  
+  .span_1_of_12 {
+    width: 25%;
+  }
+  
+  .span_2_of_12 {
+    width: 45%;
+  }
+  
+  /* about logo images reduce padding */
+  
+  #university img {
+    padding: 0.55rem;
   }
   
   /* responsive top nav */
