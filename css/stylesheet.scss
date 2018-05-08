@@ -199,11 +199,18 @@ div.overlay {
   padding: 1.5rem;
 }
 
+#board .contact-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 225px;
+}
+
 //CONTACT PAGE
 
 .contact-card {
-  margin:  0 1rem 1rem 0;
-  h4, p, a {
+  margin:  0 1rem 2rem 0;
+  h4, h5, p, a {
     margin: 0.25rem 0;
   }
 }

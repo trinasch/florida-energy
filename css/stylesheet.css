@@ -164,9 +164,21 @@ div.overlay {
 #university img {
   padding: 1.5rem; }
 
+#board .contact-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 225px; }
+
 .contact-card {
-  margin: 0 1rem 1rem 0; }
-  .contact-card h4, .contact-card p, .contact-card a {
+  margin: 0 1rem 2rem 0; }
+  .contact-card h4, .contact-card h5, .contact-card p, .contact-card a {
     margin: 0.25rem 0; }
 
 .map img {
