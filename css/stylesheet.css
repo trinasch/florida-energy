@@ -150,6 +150,27 @@ div.overlay {
   filter: alpha(opacity=70);
   /* For IE8 and earlier */ }
 
+#content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  #content div {
+    margin: 0 1rem 2rem 0;
+    max-width: 225px; }
+
+.quote p:first-of-type {
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 0 3rem; }
+.quote h5 {
+  margin: 3rem 3rem 0 3rem; }
+
 #university {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -8,6 +8,12 @@ $white: #FFFFFF;
 $heading-font: 'Lato', sans-serif;
 $paragraph-font: 'Oxygen', sans-serif;
 
+@mixin flexwrapped {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 //COMMON HEADINGS
 /* Headings */
 p, a, li, label {
@@ -156,9 +162,7 @@ button {
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+ @include flexwrapped;
 }
 
 /* styling on hero section */
@@ -187,12 +191,32 @@ div.overlay {
   filter: alpha(opacity=70); /* For IE8 and earlier */
 }
 
+//SOLAR PAGE
+
+#content {
+  @include flexwrapped;
+  div {
+    margin:  0 1rem 2rem 0;
+    max-width: 225px;
+  }
+}
+
 //ABOUT PAGE
 
+.quote {
+  p:first-of-type {
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 0 3rem;
+  }
+  h5 {
+    margin: 3rem 3rem 0 3rem;
+  }
+}
+
+
 #university {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+ @include flexwrapped;
 }
 
 #university img {
@@ -200,9 +224,7 @@ div.overlay {
 }
 
 #board .contact-card {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  @include flexwrapped;
   max-width: 225px;
 }
 
