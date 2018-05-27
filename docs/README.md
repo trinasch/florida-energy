@@ -165,4 +165,10 @@ I also assembled the structured content for the About page and Solar Energy page
 Since the top navigation and footer appear on all pages, those are also candidates for a modular approach.
 
 
+### GOOGLE CHART
 
+I added the two data sets in a single 'column chart' from Google Charts to index.html. One bar to show how much renewable energy is produced each year and the other to show what's consumed. I included the default legend, and added options for the subtitle, height / width of chart, and color of bars for each series.
+
+[Google Charts Documentation: Column Chart](https://developers.google.com/chart/interactive/docs/gallery/columnchart)
+
+By showing the two data sets in the same chart with differences in bar height, you can clearly see that consumption outpaces production each year by 2x-3x, which helps emphasize why energy efficiency and continued energy research is important.

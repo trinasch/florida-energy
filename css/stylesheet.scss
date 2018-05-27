@@ -195,7 +195,7 @@ div.overlay {
 
 #content {
   @include flexwrapped;
-  div {
+  div.research-card {
     margin:  0 1rem 2rem 0;
     max-width: 225px;
   }

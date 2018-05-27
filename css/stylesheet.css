@@ -160,7 +160,7 @@ div.overlay {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
-  #content div {
+  #content div.research-card {
     margin: 0 1rem 2rem 0;
     max-width: 225px; }
 
