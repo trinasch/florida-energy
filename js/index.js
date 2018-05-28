@@ -1,14 +1,13 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("mainNav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}
+/* Vue app for navigation and hero components */
+
+var app = new Vue({
+  el: '#app',
+  data: {  }
+})
+
 
 /* Chart for index.html with energy consumed and produced from 1960-2015*/
+
 google.charts.load('current', {'packages':['bar']});
 google.charts.setOnLoadCallback(drawChart);
 

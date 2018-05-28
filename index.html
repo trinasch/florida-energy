@@ -56,42 +56,23 @@
   return t;
   }(document, "script", "twitter-wjs"));</script>
   
+  <!-- Google charts -->
   <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-
-  <!-- common script file -->
-  <script src="js/script.js"></script>
+  
+  <!-- Vue js -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/components.js"></script>
 
 </head>
 
 <body>
+  
+<!-- Vue.js for navigation and hero -->  
+  <div id="app">
+    <navigation></navigation>
+    <hero headline="Find energy research, education, events, and more" subhead="Provided by the FESC, a consortium of universities addressing Florida's energy needs"></hero>
+  </div>
     
-  <!--Responsive nav with dropdown-->
-  <nav class="topnav" id="mainNav">
-    <a href="index.html"><img src="images/fesc-logo-130x29.png" alt="florida energy systems consortium" class="logo"></a>
-    <div class="dropdown">
-      <button class="dropbtn">Energy systems 
-        <i class="fa fa-caret-down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="solar.html">Solar Energy</a>
-        <a href="wind.html">Wind Power</a>
-        <a href="water.html">Water &amp; Ocean</a>
-        <a href="fuel.html">Fuel &amp; Biomass</a>
-        <a href="storage.html">Storage &amp; Delivery</a>
-        <a href="nuclear.html">Nuclear Energy</a>
-      </div>
-    </div> 
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fas fa-bars fa-lg"></i></a>
-  </nav>
-    
-  <!--Hero section, including Twitter share button-->
-  <header>
-    <h1>Find energy research, education, events, and more</h1>
-    <p>Provided by the FESC, a consortium of universities addressing Florida's energy needs</p>
-    <p><a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Wow"> Tweet</a></p>
-  </header>
       
 <!--Energy system card grid-->
   <div class="container">
@@ -273,6 +254,9 @@
     </div> 
 
   </footer>
+  
+  <script src="js/index.js"></script>
+  
 </body>
 </html>
 
