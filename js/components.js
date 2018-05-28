@@ -19,7 +19,7 @@ Vue.component('navigation', {
 /* Hero section, including Twitter share button */
   
 Vue.component('hero', {
-  props: ['headline', 'subhead'],
-  template: '<header><h1> {{ headline }} </h1><p> {{ subhead }} </p><p><a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Wow"> Tweet</a></p></header>' 
+  props: ['page', 'headline', 'subhead'],
+  template: '<header><div><p><a href="index.html">Home</a> {{ page }} </p><h1> {{ headline }} </h1><p> {{ subhead }} </p><p><a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Wow"> Tweet</a></p></div></header>' 
 })
     
