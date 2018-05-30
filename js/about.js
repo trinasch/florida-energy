@@ -5,6 +5,13 @@ var aboutApp = new Vue({
   data: {  }
 })
 
+/* Vue app for footer component */
+
+var footerApp = new Vue({
+  el: '#footer-app',
+  data: {  }
+})
+
 
 /* board member section data */
 var boardmembers = [

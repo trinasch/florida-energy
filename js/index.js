@@ -5,6 +5,13 @@ var app = new Vue({
   data: {  }
 })
 
+/* Vue app for footer component */
+
+var footerApp = new Vue({
+  el: '#footer-app',
+  data: {  }
+})
+
 
 /* Chart for index.html with energy consumed and produced from 1960-2015*/
 
