@@ -70,7 +70,7 @@
     <hero page=" > About Us" headline="About FESC" subhead="Learn about our mission, advisory board, participating universities, and facilities."></hero>
   </div>
 
-  <div class="container">
+  <div id="main" class="container">
     
     <section class="section group">
       <div class="col span_6_of_12">
@@ -87,13 +87,22 @@
     <!--Advisory board section-->
     <h2>Meet the advisory board</h2>
     <section id="board" class="section row">
-
+      <div v-for="member in people" class="contact-card">
+        <h5>{{ member.position }}</h5>
+        <img src="images/cat.png" class="clip-circle">
+        <h4>{{ member.fullName }}</h4>
+        <p>{{ member.credentials }}</p>
+      </div>
     </section>
+    
+
 
     <!--Participating universities section-->
       <h2>Participating universities</h2>
       <div id="university" class="section row">
-
+        <div v-for="college in school">
+          <a :href="college.website" class="row"><img :src="college.image" :alt="college.name"></a>
+        </div>
       </div>
   </div>
 

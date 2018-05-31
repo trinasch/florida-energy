@@ -136,52 +136,52 @@ var boardmembers = [
   },
 ]
  
-function contactCard(){
-  // select element with id "target"
-  var container = document.getElementById("board");
-
-  // give it a class of "parent"
-  container.classList.add("parent");
-
-
-  // loop through the university array, and for each create a listing like:
-  //  <div class="contact-card col span_4_of_12">
-//       <img src="images/David-Norton-200x230.jpg" class="clip-circle" alt="David Norton photo">
-//       <h4>Dr. David Norton</h4>
-//       <p>Interim Director, FESC</p>
-//       <a href="mailto:dpnorton@ufl.edu">dpnorton@ufl.edu</a>
-//     </div>
-  
-  for(var i=0; i<boardmembers.length; i++){
-    var div = document.createElement("div"); 
-    div.setAttribute("class", "contact-card");
-    
-    var h5V = document.createElement("h5");
-    h5V.innerHTML = boardmembers[i].position;
-    console.log(h5V);
-    
-    var imgV = document.createElement("img");
-    imgV.setAttribute("src", "images/cat.png");
-    imgV.setAttribute("class", "clip-circle");
-    
-    var h4V = document.createElement("h4");
-    h4V.innerHTML = boardmembers[i].fullName;
-    console.log(h4V);
-    
-    var pV = document.createElement("p");
-    pV.innerHTML = boardmembers[i].credentials;
-    console.log(pV);
-    
-    div.appendChild(h5V);
-    div.appendChild(imgV);
-    div.appendChild(h4V);
-    div.appendChild(pV);
-
-    container.appendChild(div);
-  }
-}
-
-contactCard()
+//function contactCard(){
+//  // select element with id "target"
+//  var container = document.getElementById("board");
+//
+//  // give it a class of "parent"
+//  container.classList.add("parent");
+//
+//
+//  // loop through the university array, and for each create a listing like:
+//  //  <div class="contact-card col span_4_of_12">
+////       <img src="images/David-Norton-200x230.jpg" class="clip-circle" alt="David Norton photo">
+////       <h4>Dr. David Norton</h4>
+////       <p>Interim Director, FESC</p>
+////       <a href="mailto:dpnorton@ufl.edu">dpnorton@ufl.edu</a>
+////     </div>
+//  
+//  for(var i=0; i<boardmembers.length; i++){
+//    var div = document.createElement("div"); 
+//    div.setAttribute("class", "contact-card");
+//    
+//    var h5V = document.createElement("h5");
+//    h5V.innerHTML = boardmembers[i].position;
+//    console.log(h5V);
+//    
+//    var imgV = document.createElement("img");
+//    imgV.setAttribute("src", "images/cat.png");
+//    imgV.setAttribute("class", "clip-circle");
+//    
+//    var h4V = document.createElement("h4");
+//    h4V.innerHTML = boardmembers[i].fullName;
+//    console.log(h4V);
+//    
+//    var pV = document.createElement("p");
+//    pV.innerHTML = boardmembers[i].credentials;
+//    console.log(pV);
+//    
+//    div.appendChild(h5V);
+//    div.appendChild(imgV);
+//    div.appendChild(h4V);
+//    div.appendChild(pV);
+//
+//    container.appendChild(div);
+//  }
+//}
+//
+//contactCard()
 
 
 
@@ -248,33 +248,42 @@ var univ = [
   },
 ]
 
-function buildLogo(){
-  // select element with id "target"
-  var container = document.getElementById("university");
+/* Vue app for main section */
+var aboutMain = new Vue({
+  el: '#main',
+  data: {
+    people: boardmembers,
+    school: univ
+  } 
+})
 
-  // give it a class of "parent"
-  container.classList.add("parent");
-
-
-  // loop through the university array, and for each create a listing like:
-  // <a href="website"><img src="logo" alt="famu"></a>
-  for(var i=0; i<univ.length; i++){
-    var div = document.createElement("div"); 
-    
-    var imgV = document.createElement("img");
-    imgV.setAttribute("src", univ[i].image);
-    imgV.setAttribute("alt", univ[i].name);
-    console.log(imgV);
-    
-    var aV = document.createElement("a");
-    aV.setAttribute("href", univ[i].website);
-    aV.setAttribute("class", "row");
-    aV.appendChild(imgV);
-    
-    div.appendChild(aV);
-
-    container.appendChild(div);
-  }
-}
-
-buildLogo()
+//function buildLogo(){
+//  // select element with id "target"
+//  var container = document.getElementById("university");
+//
+//  // give it a class of "parent"
+//  container.classList.add("parent");
+//
+//
+//  // loop through the university array, and for each create a listing like:
+//  // <a href="website"><img src="logo" alt="famu"></a>
+//  for(var i=0; i<univ.length; i++){
+//    var div = document.createElement("div"); 
+//    
+//    var imgV = document.createElement("img");
+//    imgV.setAttribute("src", univ[i].image);
+//    imgV.setAttribute("alt", univ[i].name);
+//    console.log(imgV);
+//    
+//    var aV = document.createElement("a");
+//    aV.setAttribute("href", univ[i].website);
+//    aV.setAttribute("class", "row");
+//    aV.appendChild(imgV);
+//    
+//    div.appendChild(aV);
+//
+//    container.appendChild(div);
+//  }
+//}
+//
+//buildLogo()
