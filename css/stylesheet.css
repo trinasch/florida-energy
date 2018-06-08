@@ -54,8 +54,8 @@ button {
     color: white; }
 
 .clip-circle {
-  -webkit-clip-path: circle(100px at center);
-          clip-path: circle(100px at center);
+  -webkit-clip-path: circle(50px at center);
+          clip-path: circle(50px at center);
   background: #FFFFFF; }
 
 /* Add a white background color to the top navigation */
@@ -183,7 +183,7 @@ div.overlay {
       flex-wrap: wrap; }
 
 #university img {
-  padding: 1.5rem; }
+  padding: 1rem; }
 
 #board .contact-card {
   display: -webkit-box;
@@ -194,13 +194,15 @@ div.overlay {
       -ms-flex-direction: row;
           flex-direction: row;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  max-width: 225px; }
+      flex-wrap: wrap; }
 
 .contact-card {
-  margin: 0 1rem 2rem 0; }
+  margin: 1rem 2rem 0; }
   .contact-card h4, .contact-card h5, .contact-card p, .contact-card a {
-    margin: 0.25rem 0; }
+    margin: 0.25rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
 
 .map img {
   max-width: 100%; }

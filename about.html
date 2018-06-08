@@ -65,7 +65,7 @@
 <body>
   
 <!-- Vue.js for navigation and hero -->  
-  <div id="about-app">
+  <div id="app">
     <navigation></navigation>
     <hero page=" > About Us" headline="About FESC" subhead="Learn about our mission, advisory board, participating universities, and facilities."></hero>
   </div>
@@ -88,10 +88,14 @@
     <h2>Meet the advisory board</h2>
     <section id="board" class="section row">
       <div v-for="member in people" class="contact-card">
-        <h5>{{ member.position }}</h5>
-        <img src="images/cat.png" class="clip-circle">
-        <h4>{{ member.fullName }}</h4>
-        <p>{{ member.credentials }}</p>
+        <div class="col span_1_of_12">
+          <img :src="member.headshot" :alt="member.fullName" class="clip-circle">
+        </div>
+        <div class="col span_1_of_12">
+          <h5>{{ member.position }}</h5>
+          <h4>{{ member.fullName }}</h4>
+          <p>{{ member.credentials }}</p>
+        </div>
       </div>
     </section>
     

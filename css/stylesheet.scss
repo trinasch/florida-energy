@@ -85,7 +85,7 @@ button {
 //COMMON SHAPES
 
 .clip-circle {
-  clip-path: circle(100px at center);
+  clip-path: circle(50px at center);
   background: $white;
 }
 
@@ -220,20 +220,20 @@ div.overlay {
 }
 
 #university img {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 #board .contact-card {
   @include flexwrapped;
-  max-width: 225px;
 }
 
 //CONTACT PAGE
 
 .contact-card {
-  margin:  0 1rem 2rem 0;
+  margin: 1rem 2rem 0;
   h4, h5, p, a {
     margin: 0.25rem 0;
+    display:  flex;
   }
 }
 

@@ -1,7 +1,7 @@
 /* Vue app for navigation and hero components */
 
-var aboutApp = new Vue({
-  el: '#about-app',
+var app = new Vue({
+  el: '#app',
   data: {  }
 })
 
