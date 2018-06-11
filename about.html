@@ -78,7 +78,7 @@
         <h2>Becoming a world leader in energy systems</h2>
         <p>The Florida Energy Systems Consortium (FESC) was created by the Florida State government to promote collaboration among the energy experts at its 12 participating universities and to share their energy knowledge with you.</p>
       </div>
-      <div class="quote col span_6_of_12">
+      <div class="quote col span_12_of_12">
         <h5>Our mission</h5>
         <p>"Research and develop innovative energy systems that lead to alternative energy strategies, improved energy efficiencies, and expanded economic development for the state."</p>
       </div>
@@ -86,20 +86,18 @@
     
     <!--Advisory board section-->
     <h2>Meet the advisory board</h2>
-    <section id="board" class="section row">
-      <div v-for="member in people" class="contact-card">
-        <div class="col span_1_of_12">
+    <section id="board" class="section group row">
+      <div v-for="member in people" class="contact-card col span_2_of_12">
+        <div>
           <img :src="member.headshot" :alt="member.fullName" class="clip-circle">
         </div>
-        <div class="col span_1_of_12">
+        <div>
           <h5>{{ member.position }}</h5>
           <h4>{{ member.fullName }}</h4>
           <p>{{ member.credentials }}</p>
         </div>
       </div>
     </section>
-    
-
 
     <!--Participating universities section-->
       <h2>Participating universities</h2>

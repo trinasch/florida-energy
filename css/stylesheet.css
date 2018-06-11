@@ -164,12 +164,19 @@ div.overlay {
     margin: 0 1rem 2rem 0;
     max-width: 225px; }
 
-.quote p:first-of-type {
-  font-size: 1.25rem;
-  font-style: italic;
-  margin: 0 3rem; }
-.quote h5 {
-  margin: 3rem 3rem 0 3rem; }
+.quote {
+  background-color: #108000;
+  opacity: 0.75; }
+  .quote p:first-of-type {
+    font-size: 2rem;
+    font-style: italic;
+    color: #FFFFFF;
+    margin: 0 3rem 3rem 3rem;
+    text-align: left; }
+  .quote h5 {
+    color: #FFFFFF;
+    text-align: left;
+    margin: 3rem 3rem 0.5rem 3rem; }
 
 #university {
   display: -webkit-box;
@@ -185,16 +192,10 @@ div.overlay {
 #university img {
   padding: 1rem; }
 
-#board .contact-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+.contact-card {
+  vertical-align: top;
+  padding: .5rem;
+  margin: 1rem; }
 
 .contact-card {
   margin: 1rem 2rem 0; }
@@ -313,6 +314,10 @@ div.span_12_of_12 {
   /* about logo images reduce padding */
   #university img {
     padding: 0.55rem; }
+
+  /* about quote reduce font size */
+  .quote p:first-of-type {
+    font-size: 1.25rem; }
 
   /* responsive top nav */
   /* Hide top nav except for logo and hamburger icon */

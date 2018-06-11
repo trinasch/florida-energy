@@ -204,16 +204,21 @@ div.overlay {
 //ABOUT PAGE
 
 .quote {
+  background-color: $primary;
+  opacity: 0.75;
   p:first-of-type {
-  font-size: 1.25rem;
-  font-style: italic;
-  margin: 0 3rem;
+    font-size: 2rem;
+    font-style: italic;
+    color: $white;
+    margin: 0 3rem 3rem 3rem;
+    text-align: left;
   }
   h5 {
-    margin: 3rem 3rem 0 3rem;
+    color: $white;
+    text-align: left;
+    margin: 3rem 3rem 0.5rem 3rem;
   }
 }
-
 
 #university {
  @include flexwrapped;
@@ -223,8 +228,10 @@ div.overlay {
   padding: 1rem;
 }
 
-#board .contact-card {
-  @include flexwrapped;
+.contact-card {
+  vertical-align: top;
+  padding: .5rem;
+  margin: 1rem;
 }
 
 //CONTACT PAGE
@@ -368,6 +375,13 @@ div.span_12_of_12 {
   
   #university img {
     padding: 0.55rem;
+  }
+  
+  /* about quote reduce font size */
+  .quote {
+    p:first-of-type {
+      font-size: 1.25rem;
+    }
   }
   
   /* responsive top nav */
