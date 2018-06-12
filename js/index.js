@@ -90,7 +90,7 @@ function getElectricConsumed(){
   
   //URL to data goes here
   //TO DO: secure key
-  let requestUrl = "http://api.eia.gov/series/?api_key=f4d8118ecdf14870ca176c9bd8b25d34&series_id=SEDS.ESTCB.FL.A"
+  let requestUrl = "https://api.eia.gov/series/?api_key=f4d8118ecdf14870ca176c9bd8b25d34&series_id=SEDS.ESTCB.FL.A"
   
   //Open a connection
   request.open('GET', requestUrl, true)
