@@ -167,8 +167,15 @@ Since the top navigation and footer appear on all pages, those are also candidat
 
 ### GOOGLE CHART
 
-I added the two data sets in a single 'column chart' from Google Charts to index.html. One bar to show how much renewable energy is produced each year and the other to show what's consumed. I included the default legend, and added options for the subtitle, height / width of chart, and color of bars for each series.
+I added the two data sets in separate 'column charts' from Google Charts to index.html. One shows how much renewable energy is produced each year and the other to show total consumed. I modified the bar colors and height / width of each chart.
 
 [Google Charts Documentation: Column Chart](https://developers.google.com/chart/interactive/docs/gallery/columnchart)
 
-By showing the two data sets in the same chart with differences in bar height, you can clearly see that consumption outpaces production each year by 2x-3x, which helps emphasize why energy efficiency and continued energy research is important.
+### API DOCUMENTATTION
+
+Data for Google Charts on index.html is sourced from the open data available on the U.S. EIA at the following:
+
+- [Renewable Energy Produced in Florida](https://www.eia.gov/opendata/qb.php?category=40426&sdid=SEDS.REPRB.FL.A)
+- [Total Energy Consumed in Florida](https://www.eia.gov/opendata/qb.php?category=40236&sdid=SEDS.TETCB.FL.A)
+
+
