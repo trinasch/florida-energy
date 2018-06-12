@@ -171,7 +171,7 @@ I added the two data sets in separate 'column charts' from Google Charts to inde
 
 [Google Charts Documentation: Column Chart](https://developers.google.com/chart/interactive/docs/gallery/columnchart)
 
-### API DOCUMENTATTION
+### API DOCUMENTATION
 
 Data for Google Charts on index.html is sourced from the open data available on the U.S. EIA at the following:
 
